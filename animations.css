@@ -1,0 +1,213 @@
+@keyframes slideFadeDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideFadeLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideFadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideFadeRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  
+  @keyframes slideFadeDownLoop {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+  }
+  
+  @keyframes slideFadeLeftLoop {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    30% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  }
+  
+  @keyframes slideFadeUpLoop {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  }
+
+  @keyframes slideFadeRightLoop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  }
+
+  @keyframes slideFadeRightLoop {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    30% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    70% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  }
+  
+  #profile .text-container {
+    animation: slideFadeDownLoop 6s ease-in-out infinite;
+  }
+  
+  #profile .pic-container {
+    animation: slideFadeLeftLoop 6s ease-in-out infinite;
+  }
+  
+  #profile .btn-container {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.2s;
+  }
+  
+  #profile #socials-container {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.3s;
+  }
+
+
+  #about .title {
+    animation: slideFadeDown 4s ease-in-out;
+  }
+  
+  #about .about-container {
+    animation: slideFadeUp 4s ease-in-out;
+    animation-delay: 0.2s;
+  }
+  
+  #about .pic-container {
+    animation: slideFadeRight 4s ease-in-out;
+    animation-delay: 0.4s;
+  }
+
+ 
+  #contact .title {
+    animation: slideFadeDownLoop 6s ease-in-out infinite;
+    animation-delay: 0.4s;
+  }
+
+  #contact .contact-info-container:nth-child(1) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.2s;
+  }
+  
+  #contact .contact-info-container:nth-child(2) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  #contact .contact-info-container:nth-child(3) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.7s;
+  }
+
+  #experience .title {
+    animation: slideFadeDownLoop 6s ease-in-out infinite;
+    animation-delay: 0.4s;
+  }
+  
+  #experience .experience-card:nth-child(1) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.2s;
+  }
+  
+  #experience .experience-card:nth-child(2) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.5s;
+  }
+  
+  #experience .experience-card:nth-child(3) {
+    animation: slideFadeUpLoop 6s ease-in-out infinite;
+    animation-delay: 0.7s;
+  }
