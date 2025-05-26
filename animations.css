@@ -1,4 +1,5 @@
-@keyframes slideFadeDown {
+@media screen and (min-width: 1400px) {
+    @keyframes slideFadeDown {
     0% {
       opacity: 0;
       transform: translateY(-50px);
@@ -226,3 +227,4 @@
     animation: slideFadeUpLoop 6s ease-in-out infinite;
     animation-delay: 0.5s;
   }
+}
