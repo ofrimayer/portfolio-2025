@@ -119,8 +119,10 @@
   
     .project-img {
       width: 80vw;
-      height: auto;
+      height: 0 auto;
+      max-width: 300px;
     }
+
   
     /* CONTACT */
     .contact-info-upper-container {
